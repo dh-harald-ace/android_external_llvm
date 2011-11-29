@@ -25,6 +25,8 @@ using namespace sys;
 
 }
 
+#undef HAVE_DLFCN_H
+
 // Include the platform-specific parts of this class.
 #ifdef LLVM_ON_UNIX
 #include "Unix/Signals.inc"

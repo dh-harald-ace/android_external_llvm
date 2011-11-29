@@ -13,6 +13,8 @@
 
 #include "llvm/Config/config.h"
 #include "llvm/Support/Mutex.h"
+#undef ENABLE_THREADS
+#undef HAVE_PTHREAD_H
 
 //===----------------------------------------------------------------------===//
 //=== WARNING: Implementation here must contain only TRULY operating system

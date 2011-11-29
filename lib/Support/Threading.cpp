@@ -16,6 +16,7 @@
 #include "llvm/Support/Mutex.h"
 #include "llvm/Config/config.h"
 #include <cassert>
+#undef LLVM_MULTITHREADED
 
 using namespace llvm;
 
